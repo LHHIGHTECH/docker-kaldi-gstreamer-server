@@ -8,7 +8,7 @@ decoder:
     model : /opt/models/final.mdl
     word-syms : /opt/models/words.txt
     fst : /opt/models/HCLG.fst
-    mfcc-config : /media/kaldi_models/conf/mfcc.conf
+    mfcc-config : /opt/models/conf/mfcc.conf
     ivector-extraction-config : /opt/models/conf/ivector_extractor.conf
     max-active: 10000
     beam: 10.0
